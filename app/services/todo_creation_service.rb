@@ -1,4 +1,5 @@
 # typed: true
+
 class TodoCreationService
   extend T::Sig
 

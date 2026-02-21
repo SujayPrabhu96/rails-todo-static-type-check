@@ -1,4 +1,5 @@
 # typed: true
+
 class TodosController < ApplicationController
   extend T::Sig
 

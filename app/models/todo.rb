@@ -1,4 +1,5 @@
 # typed: true
+
 class Todo < ApplicationRecord
   extend T::Sig
 
