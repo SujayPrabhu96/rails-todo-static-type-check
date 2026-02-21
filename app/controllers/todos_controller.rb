@@ -1,5 +1,8 @@
 # typed: true
+
 class TodosController < ApplicationController
+  skip_before_action :verify_authenticity_token
+
   extend T::Sig
 
   sig { void }
